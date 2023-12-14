@@ -25,7 +25,6 @@ class Solution {
 // arr[i]=copy[i];
 
 
-
-// 1,2,3,4,5,6,7
-// 7 6 5 || 4 3 2 1
-// 5 6 7 1 2 3 4 
+//Reverse the array fully
+//Reverse till its Kth postion
+//Reverse from k+1 till last element of arrays
