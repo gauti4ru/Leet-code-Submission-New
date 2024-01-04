@@ -1,4 +1,4 @@
-class Solution {
+class LemonadeChange {
     public boolean lemonadeChange(int[] bills) {
         int fives =0,tens=0;
         for(int bill:bills){

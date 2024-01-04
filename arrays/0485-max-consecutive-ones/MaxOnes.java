@@ -1,4 +1,4 @@
-class Solution {
+class MaxOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
         
         int sum=0, temp=0; int i=0;

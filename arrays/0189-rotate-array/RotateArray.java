@@ -1,4 +1,4 @@
-class Solution {
+class RotateArray {
     public void rotate(int[] nums, int k) {
         //we are finding remainder here becasue if k(number of rotation) is greater than the length of array then we need to find out its remainder because rotation=number of length will again become the same array
         k=k%nums.length;

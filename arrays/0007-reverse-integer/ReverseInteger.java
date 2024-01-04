@@ -1,5 +1,7 @@
-class Solution {
-    public boolean isPalindrome(int x) {
+import java.util.ArrayList;
+import java.util.List;
+class ReverseInteger {
+   public int reverse(int x) {
           int y=x;
           List<Integer> list = new ArrayList();
           do {
@@ -7,7 +9,7 @@ class Solution {
               x=x/10;
 
           }while(x!=0);
-        return y==result(list) && y>=0?true:false;
+        return y<=Integer.MAX_VALUE && y>=Integer.MIN_VALUE ? result(list):0;
 
 
     }
@@ -26,4 +28,7 @@ class Solution {
         }while(i<list.size());
         return (int) x;
     }
+
+
+
 }

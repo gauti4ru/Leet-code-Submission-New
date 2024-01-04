@@ -1,4 +1,4 @@
-class Solution {
+class ThreeSum {
     public int threeSumClosest(int[] nums, int target) {
         int first,second,third;
         int sum=0;

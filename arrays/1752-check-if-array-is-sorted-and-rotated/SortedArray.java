@@ -1,4 +1,4 @@
-class Solution {
+class SortedArray {
     public boolean check(int[] nums) {
         int count =0;
         for(int i=0;i<nums.length-1;i++){

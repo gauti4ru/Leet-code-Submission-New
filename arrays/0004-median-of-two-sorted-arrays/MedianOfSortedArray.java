@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.stream.Collectors;
-class Solution {
+class MedianOfSortedArray {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double median=0;
         int a=0;

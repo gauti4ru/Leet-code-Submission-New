@@ -1,7 +1,7 @@
 
 
 import java.util.*;
-class Solution {
+class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         List list = new ArrayList<>();
         List<Integer> count = new ArrayList<>();

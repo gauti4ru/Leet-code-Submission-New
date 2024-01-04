@@ -1,5 +1,5 @@
 //Using Kadane's Algo
-class Solution {
+class MaximumSubarray {
     public int maxSubArray(int[] nums) {
     int maxCurrent=nums[0],maxGlobal=nums[0];
         for(int i=1;i<nums.length;i++){

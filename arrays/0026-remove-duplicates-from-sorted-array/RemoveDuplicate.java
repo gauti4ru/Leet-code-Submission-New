@@ -1,4 +1,5 @@
-class Solution {
+import java.util.Arrays;
+class RemoveDuplicate {
     int count=0;
     public int removeDuplicates(int[] nums) {
 

@@ -1,5 +1,5 @@
 
-class Solution {
+class BuyStock {
     public int maxProfit(int[] prices) {
         int profit=0;
         int lbp=prices[0];//lbp=lowst Buying price
