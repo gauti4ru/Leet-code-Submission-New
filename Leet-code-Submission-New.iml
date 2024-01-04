@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/0001-two-sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0002-add-two-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0007-reverse-integer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0009-palindrome-number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0016-3sum-closest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0075-sort-colors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0121-best-time-to-buy-and-sell-stock" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0136-single-number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0169-majority-element" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0258-add-digits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0268-missing-number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0283-move-zeroes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0485-max-consecutive-ones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0860-lemonade-change" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0004-median-of-two-sorted-arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0026-remove-duplicates-from-sorted-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0189-rotate-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/1752-check-if-array-is-sorted-and-rotated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/2149-rearrange-array-elements-by-sign" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/kadane's Algo/0053-maximum-subarray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/strings/0003-longest-substring-without-repeating-characters" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/strings/0005-longest-palindromic-substring" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
