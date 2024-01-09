@@ -1,19 +1,17 @@
 class MajorityElement {
     public int majorityElement(int[] nums) {
-        
-        int count = 0,i=0,maxcount=0,majorElement=0;
-        while(i<=nums.length/2){
-
-            for(int j=i;j<nums.length;j++){
-                if(nums[i]==nums[j]) count++;
+        int count = 0, i = 0, maxcount = 0, majorElement = 0;
+        while(i <= nums.length / 2) {
+            for(int j = i; j < nums.length; j++) {
+                if(nums[i] == nums[j])
+                    count++;
             }
-            majorElement=maxcount<count ?nums[i] : majorElement;
-            maxcount=maxcount<count ?count : maxcount;
+            majorElement = maxcount < count ? nums[i] : majorElement;
+            maxcount = maxcount < count ? count : maxcount;
             i++;
-            count=0;
-            
+            count = 0;
         }
-        return nums.length==1?nums[0]:majorElement;
+        return nums.length == 1 ? nums[0] : majorElement;
     }
 }
 

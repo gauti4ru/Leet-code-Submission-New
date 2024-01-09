@@ -1,4 +1,6 @@
-<h2><a href="https://leetcode.com/problems/max-consecutive-ones/">485. Max Consecutive Ones</a></h2><h3>Easy</h3><hr><div><p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>'s in the array</em>.</p>
+<h2><a href="https://leetcode.com/problems/max-consecutive-ones/">485. Max Consecutive Ones</a></h2><h3>
+Easy</h3><hr><div><p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>
+1</code><em>'s in the array</em>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

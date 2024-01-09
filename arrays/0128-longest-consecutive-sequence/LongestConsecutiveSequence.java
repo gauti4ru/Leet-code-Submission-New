@@ -3,22 +3,18 @@ import java.util.Arrays;
 class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
         //Inserion sort is isncreasing the compleixty so thats why using default sort method
-        
-         Arrays.sort(nums);
-        int count=0;
-        int temp=nums.length==0?0:1;
-        for(int i=1;i<nums.length;i++){
-
-            if(nums[i]-nums[i-1]==1){
+        Arrays.sort(nums);
+        int count = 0;
+        int temp = nums.length == 0 ? 0 : 1;
+        for(int i = 1; i < nums.length; i++) {
+            if(nums[i] - nums[i - 1] == 1) {
                 temp++;
-            }
-            else if(nums[i]-nums[i-1]==0) { continue;}
-            else {
+            } else if(nums[i] - nums[i - 1] == 0) {continue;} else {
                 count = temp > count ? temp : count;
-                temp=1;
+                temp = 1;
             }
         }
-        return temp>count?temp:count;
+        return temp > count ? temp : count;
     }
     /*
     Code for Inserion sort 
