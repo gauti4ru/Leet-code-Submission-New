@@ -3,6 +3,7 @@ import java.util.Arrays;
 class Solution {
     public int longestConsecutive(int[] nums) {
         //Inserion sort is isncreasing the compleixty so thats why using default sort method
+        
          Arrays.sort(nums);
         int count=0;
         int temp=nums.length==0?0:1;
