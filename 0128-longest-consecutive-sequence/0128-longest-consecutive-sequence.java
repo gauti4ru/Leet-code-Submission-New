@@ -2,6 +2,7 @@
 import java.util.Arrays;
 class Solution {
     public int longestConsecutive(int[] nums) {
+        //Inserion sort is isncreasing the compleixty so thats why using default sort method
          Arrays.sort(nums);
         int count=0;
         int temp=nums.length==0?0:1;
@@ -18,7 +19,8 @@ class Solution {
         }
         return temp>count?temp:count;
     }
-    
+    /*
+    Code for Inserion sort 
     public void insertionSort(int[] nums){
         for(int i=1;i<nums.length;i++){
             int j=i-1;
@@ -34,4 +36,5 @@ class Solution {
             }
         }
     }
+    */
 }
