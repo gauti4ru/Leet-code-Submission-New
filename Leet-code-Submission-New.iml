@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/arrays/0026-remove-duplicates-from-sorted-array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0075-sort-colors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0121-best-time-to-buy-and-sell-stock" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0128-longest-consecutive-sequence" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0136-single-number" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0189-rotate-array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0258-add-digits" isTestSource="false" />

@@ -1,6 +1,6 @@
 //First Solution is based on sorting the array and then. finding the consecutive numbers.
 import java.util.Arrays;
-class Solution {
+class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
         //Inserion sort is isncreasing the compleixty so thats why using default sort method
         
