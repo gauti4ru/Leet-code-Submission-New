@@ -7,9 +7,9 @@ class LongestConsecutiveSequence {
         int count = 0;
         int temp = nums.length == 0 ? 0 : 1;
         for(int i = 1; i < nums.length; i++) {
-            if(nums[i] - nums[i - 1] == 1) {
-                temp++;
-            } else if(nums[i] - nums[i - 1] == 0) {continue;} else {
+            if(nums[i] - nums[i - 1] == 1) temp++;
+            else if(nums[i] - nums[i - 1] == 0) continue;
+            else {
                 count = temp > count ? temp : count;
                 temp = 1;
             }
