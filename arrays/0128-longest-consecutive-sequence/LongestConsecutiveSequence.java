@@ -19,15 +19,13 @@ class LongestConsecutiveSequence {
 
     //Best Case Approach with O(n) complexity.
     public static int longestConsecutive01(int[] nums) {
-        if(nums == null || nums.length == 0) {
-            return 0;
-        }
+        if(nums == null || nums.length == 0) return 0;
+        
         // Create a HashSet to store the elements of the array
         //Creating a HashSet is necessary to use for simplifying the searching algorithm.
-        HashSet< Integer > set = new HashSet<>();
-        for(int num : nums) {
-            set.add(num);
-        }
+        HashSet<Integer> set = new HashSet<>();
+        for(int num : nums) set.add(num);
+        
         int maxLength = 0;
         // Iterate through the array
         for(int num : nums) {
