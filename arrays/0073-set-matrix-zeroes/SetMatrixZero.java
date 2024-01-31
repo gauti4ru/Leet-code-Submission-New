@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-class Solution {
+class SetMatrixZero {
     //Brute Force Approach
     public void setZeroes(int[][] matrix) {
         Set<Integer> row = new HashSet<>();
