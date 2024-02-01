@@ -27,6 +27,7 @@
       <sourceFolder url="file://$MODULE_DIR$/strings/0003-longest-substring-without-repeating-characters" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/strings/0005-longest-palindromic-substring" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0073-set-matrix-zeroes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0118-pascals-triangle" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

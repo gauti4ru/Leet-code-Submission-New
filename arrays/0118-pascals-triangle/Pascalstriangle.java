@@ -2,7 +2,7 @@
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
-class Solution {
+class Pascalstriangle {
     public List< List< Integer > > generate(int numRows) {
         List< List< Integer > > mainList = new ArrayList<>();
         for(int i = 0; i < numRows; i++) {
