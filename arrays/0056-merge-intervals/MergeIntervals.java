@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-class Solution {
+class MergeIntervals {
     public static int[][] merge(int[][] intervals) {
         if(intervals.length == 1)
             return intervals;
