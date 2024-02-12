@@ -1,4 +1,4 @@
-class Solution {
+class FindDuplicate {
     /*
     Based on the given description we can say that the given array can be behave as pointers of link list.
     So we can use Floyds cycle detection conpcept
