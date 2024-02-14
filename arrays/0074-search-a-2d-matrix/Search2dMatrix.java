@@ -1,4 +1,4 @@
-class Solution {
+class Search2dMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;
         //Finding the expected row

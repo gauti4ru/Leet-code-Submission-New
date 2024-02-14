@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-class Solution {
+class MajorityElementNby3 {
     //Using Map
     //Storing array elements as key and there count as value
     public List<Integer> majorityElement(int[] nums) {
