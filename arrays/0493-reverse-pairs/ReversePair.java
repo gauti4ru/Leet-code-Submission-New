@@ -1,4 +1,4 @@
-class Solution {
+class ReversePair {
     //Brute Force Approach
         /*
         public int reversePairs(int[] nums) {

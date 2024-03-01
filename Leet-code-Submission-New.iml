@@ -34,6 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/arrays/0050-powx-n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0074-search-a-2d-matrix" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/0229-majority-element-ii" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/0493-reverse-pairs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
