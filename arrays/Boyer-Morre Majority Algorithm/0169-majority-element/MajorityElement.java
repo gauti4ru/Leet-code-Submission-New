@@ -21,7 +21,7 @@ class MajorityElement {
 
 /*
 #Boyer-Morre Majority Algorithm
-class Solution {
+class ReverseLinkedList {
     public int majorityElement(int[] nums) {
         int  vote=0;
         int candidate=0;
@@ -48,8 +48,8 @@ class Solution {
 */
 
 /*
-#Solution using Sort method of Arrays class
-class Solution {
+#ReverseLinkedList using Sort method of Arrays class
+class ReverseLinkedList {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length/2];

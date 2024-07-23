@@ -1,4 +1,4 @@
-//First Solution is based on sorting the array and then. finding the consecutive numbers.
+//First ReverseLinkedList is based on sorting the array and then. finding the consecutive numbers.
 import java.util.Arrays;
 import java.util.HashSet;
 class LongestConsecutiveSequence {
