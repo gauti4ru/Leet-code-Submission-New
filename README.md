@@ -67,3 +67,15 @@ using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
   - [Top 50 Graph Problems](https://www.geeksforgeeks.org/explore?page=1&sprint=405e9db0f353691ad3b2d546b19145e9&sortBy=submissions&sprint_name=Top%2050%20Graph%20Problems)
   - [Top 50 Tree Problems](https://www.geeksforgeeks.org/explore?page=1&sprint=5f24de84b65bf7c4f4399c8111e26b81&sortBy=submissions&sprint_name=Top%2050%20Tree%20Problems)
 </details>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/gauti4ru/Leet-code-Submission-New/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/gauti4ru/Leet-code-Submission-New/tree/master/0206-reverse-linked-list) |
+<!---LeetCode Topics End-->
