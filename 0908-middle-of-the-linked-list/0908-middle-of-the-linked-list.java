@@ -60,7 +60,7 @@ the slow pointer will be at the middle. This happens because
 the fast pointer covers twice the distance of the slow pointer 
 in the same amount of time.
 
-fast - 1 , 2 ,4 , 6
+fast - 1 , 3 ,5 , 7
 slow - 1 , 2 ,3 , 4
 */
 
