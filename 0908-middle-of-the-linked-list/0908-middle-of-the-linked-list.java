@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ // Brute Force Approach
 class Solution {
     public ListNode middleNode(ListNode head) {
 
@@ -33,3 +35,32 @@ class Solution {
 
     }
 }
+
+//Two Pointer approach 
+/*
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+        }
+        return slow;
+    }
+}
+
+Explaination-
+In the context of a linked list, the idea is to use two pointers:
+
+Fast Pointer: Moves two steps at a time.
+Slow Pointer: Moves one step at a time.
+By the time the fast pointer reaches the end of the list, 
+the slow pointer will be at the middle. This happens because 
+the fast pointer covers twice the distance of the slow pointer 
+in the same amount of time.
+
+fast - 1 , 2 ,4 , 6
+slow - 1 , 2 ,3 , 4
+*/
+
